@@ -1,0 +1,43 @@
+﻿.custom-bg {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    background-attachment: fixed;
+}
+
+.header-bg {
+    background-color: #7997d9;
+    color: #000;
+}
+
+.content-block {
+    background-color: #92abdf;
+}
+
+.nav-link-custom {
+    text-decoration: none;
+    color: #000;
+    background-color: #92abdf;
+    transition: 0.3s ease;
+}
+
+    .nav-link-custom:hover {
+        text-decoration: underline;
+        background-color: #7997d9;
+    }
+
+@media screen and (min-width: 768px) {
+    .nav-link-custom {
+        background-color: transparent;
+    }
+}
+
+#data-table th {
+    background-color: #d1dcf5 !important;
+}
+
+#data-table tbody tr:nth-child(odd) td {
+    background-color: #ffffff !important;
+}
+
+#data-table tbody tr:nth-child(even) td {
+    background-color: #e8eefa !important;
+}
